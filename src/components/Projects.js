@@ -4,6 +4,7 @@ import projImg1 from "../assets/img/dogsApp.png";
 import projImg2 from "../assets/img/kaloApp.png";
 import projImg3 from "../assets/img/refrigeracion.png";
 import projImg4 from '../assets/img/magicna.png'
+import projImg5 from '../assets/img/tateti.PNG'
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -13,28 +14,35 @@ export const Projects = () => {
     {
       title: "MagicNa - Tienda Magica",
       description:
-      "Desarrollo de una tienda magica virtual para microemprendimiento. Se realizo en el entorno de Vite con javaScript, React y Chakra UI para los estilos",
+      "En este proyecto, desarrollé una tienda virtual enfocada en ofrecer guías espirituales y recursos para el crecimiento personal. Utilizando Vite, JavaScript, React y Chakra UI, creé una experiencia intuitiva y atractiva para los usuarios. Mi objetivo fue proporcionar una plataforma donde los entusiastas de la espiritualidad puedan explorar y adquirir recursos para su camino personal. ",
       imgUrl: projImg4,
       link: "https://magicna.vercel.app/",
     },
     {
       title: "Refrigeración SJG",
       description:
-      "Desarrollo de sitio corporativo para una empresa dedicada al mantenimiento/reparación de sistemas de refrigeración. Realizado con Next.js, TypeScript y Chakra UI",
+      "Desarrollé un sitio corporativo para una empresa especializada en mantenimiento y reparación de sistemas de refrigeración. Utilicé Next.js, TypeScript y Chakra UI para crear un sitio web moderno y de alto rendimiento",
       imgUrl: projImg3,
       link: "https://refrigeracionsjg.vercel.app/",
     },
     {
       title: "Kalo",
       description:
-      "¡Bienvenido a Kalo! ¡Un Market Place diseñado para ti!. Logrado en 5 semanas de trabajo en grupo como prueba final para el bootcamp de Henry. Desarrollado con las últimas tecnologías y modulado para mejorar la efectividad en el rendimiento y garantizar que el código sea reutilizable y desarrollado con una gran experiencia UX/UI.",
+      "¡Descubre Kalo, el Market Place diseñado pensando en ti! Este emocionante proyecto fue el resultado de 5 semanas de trabajo en grupo durante el bootcamp de Henry. Desarrollamos Kalo utilizando las últimas tecnologías y lo modulamos cuidadosamente para lograr un rendimiento excepcional y garantizar la reutilización del código. Además, nos dedicamos a crear una experiencia de usuario inigualable con un diseño UX/UI que cautiva. ¡Únete a la experiencia Kalo y encuentra lo que necesitas con facilidad!",
       imgUrl: projImg2,
       link: "https://kalo-arg.vercel.app/",
     },
     {
+      title: "Ta-Te-Ti",
+      description:
+        "Disfruta del clásico juego Tic Tac Toe en esta versión digital desarrollada con una interfaz intuitiva y amigable, utilizando JavaScript y React. La aplicación cuenta con una lógica implementada para determinar al ganador y detectar empates, brindando una experiencia divertida. Juega contra un amigo y demuestra tus habilidades en esta experiencia frontend interactiva.",
+      imgUrl: projImg5,
+      link:"https://tic-tac-toe-fer0705.vercel.app"
+    },
+    {
       title: "Dogs App",
       description:
-        "Desarrollo de una SPA, en la cual se consume información de una API de razas de perros. Se pueden filtrar las razas de perros por nombre, temperamento, y creación. También se pueden ordenar alfabéticamente y por peso, buscar una raza específica y obtener su información detallada o crear su propio perro en una base de datos.",
+        "Descubre este emocionante proyecto de SPA centrado en el fascinante mundo de las razas de perros. Utilizando JavaScript, React y Redux, junto con una base de datos PostgreSQL, he desarrollado esta aplicación que consume una API para obtener una amplia variedad de perros. Los estilos están implementados con CSS puro para una experiencia visual atractiva. Explora diversas razas filtrando por nombre, temperamento y origen, y ordénalas alfabéticamente o por peso para encontrar la raza perfecta. Además, podrás obtener información detallada de cada raza o crear tu propio perro y guardarlo en la base de datos integrada. Sumérgete en esta experiencia canina única y disfruta de la diversidad de los perros en el sitio.",
       imgUrl: projImg1,
       link:"https://pi-dogs-fer0705.vercel.app/"
     },

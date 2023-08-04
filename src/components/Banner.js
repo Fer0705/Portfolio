@@ -80,7 +80,7 @@ export const Banner = () => {
                       </span>
                     </h1>
                     <p>
-                      Me apasiona el hecho de resolver problemas de la vida diaria mediante el código. Siempre responsable, bien predispuesta y comprometida con mis tareas. Actualmente me encuentro profundizando mis conocimientos en TypeScript.
+                    Soy una desarrolladora web entusiasta con experiencia en la creación de soluciones digitales efectivas y atractivas. Trabajo con tecnologías front-end como JavaScript, React y Redux, y también tengo experiencia en desarrollo backend con Node.js y PostgreSQL. Mi objetivo es seguir creciendo profesionalmente y ofrecer soluciones innovadoras que mejoren la experiencia del usuario en cada proyecto. Estoy emocionada por aprender y enfrentar nuevos desafíos en el mundo del desarrollo web.
                     </p>
                     <HashLink to="#connect">
                     {/* <a target="_blank" href="mailto:mortarofernanda@gmail.com" rel="noreferrer"> */}
