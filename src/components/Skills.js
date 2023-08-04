@@ -12,7 +12,7 @@ import sql from '../assets/img/sql.webp'
 import mongo from '../assets/img/Mongodb.png'
 import firebase from '../assets/img/firebase.png'
 import next from '../assets/img/next.png'
-
+import rnative from '../assets/img/reactNative.png'
 
 export const Skills = () => {
   const responsive = {
@@ -110,10 +110,10 @@ export const Skills = () => {
                   <div>
                   <img
                       className="w-20 h-20 mx-auto"
-                      src={firebase}
+                      src={rnative}
                       alt="firebase"
                     />
-                    <p className="my-4">Firebase</p>
+                    <p className="my-4">React Native</p>
                   </div>
                   <div>
                   <img

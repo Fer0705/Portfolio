@@ -3,12 +3,20 @@ import { Card } from './Card'
 import projImg1 from "../assets/img/dogsApp.png";
 import projImg2 from "../assets/img/kaloApp.png";
 import projImg3 from "../assets/img/refrigeracion.png";
+import projImg4 from '../assets/img/magicna.png'
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
 export const Projects = () => {
   const projects = [
+    {
+      title: "MagicNa - Tienda Magica",
+      description:
+      "Desarrollo de una tienda magica virtual para microemprendimiento. Se realizo en el entorno de Vite con javaScript, React y Chakra UI para los estilos",
+      imgUrl: projImg4,
+      link: "https://magicna.vercel.app/",
+    },
     {
       title: "Refrigeración SJG",
       description:
