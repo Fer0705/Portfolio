@@ -16,7 +16,7 @@ export const Card = ({ title, description, imgUrl, link }) => {
               <button className="deploy">Ver Proyecto</button>
             </a>
           </div>
-          <p>{description}</p>
+          <p style={{ fontSize: "1.5rem" }}>{description}</p>
         </div>
         <br/>
         <br/>
